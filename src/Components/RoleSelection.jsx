@@ -59,7 +59,9 @@ export default function RoleSelection() {
     >
       {/* TEXT LOGO */}
       <motion.h1
-        className="text-5xl md:text-6xl font-extrabold mb-6 tracking-wide flex items-center gap-1"
+        className="text-center text-4xl sm:text-5xl md:text-6xl 
+             font-extrabold mb-6 
+             tracking-normal md:tracking-wide"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.7 }}
